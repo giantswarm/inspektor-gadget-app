@@ -1,0 +1,15 @@
+apiVersion: vendir.k14s.io/v1alpha1
+directories:
+- contents:
+  - git:
+      commitTitle: 'Merge pull request #4175 from inspektor-gadget/alban_trace_open_ustack...'
+      sha: 5884c2b1f0c24d3331ec6627499f41fb5fb9b1f7
+      tags:
+      - v0.38.0-171-g5884c2b1
+    path: .
+  path: vendor
+- contents:
+  - directory: {}
+    path: .
+  path: helm/inspektor-gadget/templates
+kind: LockConfig

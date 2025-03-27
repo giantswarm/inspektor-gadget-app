@@ -1,0 +1,6 @@
+# This file is a Helm values file for the inspektor-gadget chart.
+image:
+  name: "giantswarm/inspektor-gadget"
+  tag: ""
+registry:
+  domain: gsoci.azurecr.io

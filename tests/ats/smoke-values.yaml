@@ -1,0 +1,10 @@
+# Values for the app-test-suite smoke (tests/ats/test_smoke.py) on the bare kind cluster
+# the generated execute-chart-tests job creates. Layered over the chart defaults, see
+# .ats/main.yaml (app-tests-app-config-file).
+
+image:
+  # appVersion (0.0.1) is a placeholder; upstream publishes v-prefixed release tags. The
+  # vendored templates are from upstream v0.38.0-171 (vendir.lock.yml) and still pass
+  # `-controller` to gadgettracermanager, which newer images (v0.55) reject, so the pin
+  # has to stay in the v0.38/v0.39 line until the templates are re-synced.
+  tag: v0.39.0

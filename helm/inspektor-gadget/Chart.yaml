@@ -9,9 +9,10 @@ description: Please add description
 
 home: https://github.com/giantswarm/inspektor-gadget-app
 
-# If you have an icon/logo, you should add it to https://github.com/giantswarm/web-assets
-# and set the final URL as a value here and uncomment.
-#icon: https://s.giantswarm.io/app-icons/example/1/light.svg
+# Upstream Inspektor Gadget brand logo, served from
+# https://github.com/giantswarm/web-assets (assets/app-icons/inspektor-gadget/1).
+# app-build-suite fails build-chart without one.
+icon: https://s.giantswarm.io/app-icons/inspektor-gadget/1/light.svg
 
 sources:
 - https://github.com/some-org/some-repo

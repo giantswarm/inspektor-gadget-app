@@ -38,7 +38,7 @@ app.kubernetes.io/component: controller
 app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
 {{- end }}
 app.kubernetes.io/managed-by: {{ .Release.Service }}
-application.giantswarm.io/team: {{ index .Chart.Annotations "application.giantswarm.io/team" | quote }}
+application.giantswarm.io/team: {{ index .Chart.Annotations "io.giantswarm.application.team" | quote }}
 {{- if .Values.additionalLabels.enabled }}
 {{- with .Values.additionalLabels.labels }}
 {{ toYaml . }}

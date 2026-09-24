@@ -18,5 +18,4 @@ sources:
 - https://github.com/some-org/some-repo
 version: 0.0.0-dev # [[ .Version ]] if you're using architect instead of app-build-suite
 annotations:
-  application.giantswarm.io/team: planeteers
   io.giantswarm.application.team: planeteers
